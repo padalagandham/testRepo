@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> testing app</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="ajax.js"></script>
+    <link href="">
+    <link type="text/css" charset="utf-8" rel="stylesheet" href="docs.css">
+</head>
+
+<body>
+
+    <div>
+        <form id="userInputForm" novalidate>
+            <div>
+                <div class="row">
+                    <div class="large-4 columns">
+                        <label>Name</label>
+                        <input type="text" name="firstName">
+                        <small class="hide">Please enter your name</small>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-4 columns">
+                        <label>Address 1</label>
+                        <input type="text" name="address1">
+                        <small class="hide">Please enter your address</small>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-4 columns">
+                        <label>Address 2</label>
+                        <input type="text" name="address2">
+                        <small class="hide">Please enter your address</small>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-4 columns">
+                        <label>City</label>
+                        <input type="text" name="city">
+                        <small class="hide">Please enter your city</small>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-4 columns">
+                        <label>State</label>
+                        <select name="state">
+				    		</select>
+                        <small class="hide">Please select your state</small>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-4 columns">
+                        <label>Zip code</label>
+                        <input type="text" name="zipcode">
+                        <small class="hide">Please enter your zip code</small>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-1 columns">
+
+                        <input type="submit" class="button" value="Ok">
+                    </div>
+                    <div class="large-2 left columns">
+
+                        <input type="reset" class="button" value="cancel">
+                    </div>
+                </div>
+
+            </div>
+        </form>
+        <div class="row">
+            <div class="large-4 columns">
+                <button id="makeRequest">Click to make ajax call!</button>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

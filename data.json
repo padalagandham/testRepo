@@ -1,0 +1,34 @@
+{
+    "id": 1,
+    "label": "A",
+    "nodes": [{
+            "id": 2,
+            "label": "B",
+            "nodes": [{
+                "id": 5,
+                "label": "E"
+            }, {
+                "id": 6,
+                "label": "F"
+            }, {
+                "id": 7,
+                "label": "G"
+            }]
+        },
+        {
+            "id": 3,
+            "label": "C"
+        },
+        {
+            "id": 4,
+            "label": "D",
+            "nodes": [{
+                "id": 8,
+                "label": "H"
+            }, {
+                "id": 9,
+                "label": "I"
+            }]
+        }
+    ]
+}

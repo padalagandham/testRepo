@@ -1,0 +1,12 @@
+{
+  "name": "adaptive",
+  "version": "1.0.0",
+  "description": "first test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start" : "main"
+  },
+  "author": "roop padala",
+  "license": "ISC"
+}
